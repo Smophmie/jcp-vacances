@@ -1,0 +1,93 @@
+nav i {
+    color: white;
+}
+
+.filters_container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 600px;
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.5);
+    margin: 60px 0;
+}
+
+.filter_container {
+    background-color: white;
+    height: 100%;
+    width:50%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.filter_container i {
+    background-color: white;
+    color: #505050;
+}
+
+select {
+    border-right: 1px solid #F2F2F2;
+}
+
+select, input[type="search"] {
+    background-color: white;
+    color: #505050;
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.filter_container .submit_button {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    margin: 30px 0;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+tbody tr {
+    border-bottom: 1px solid #1464B8;
+}
+
+th, td {
+    text-align: center;
+    height: 35px;
+}
+
+th {
+    font-size: 18px;
+}
+
+.little_input {
+    width: 480px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bigcell {
+    width: 350px;
+}
+
+.averagecell {
+    width: 150px;
+}
+
+.littlecell {
+    width: 50px;
+}
+
+table i {
+    color: black;
+}
+
+table i:hover {
+    color: #FC5B1C;
+}
+

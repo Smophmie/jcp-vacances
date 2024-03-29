@@ -1,0 +1,35 @@
+.flex_center {
+    width: 100%;
+    min-height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 700px;
+    height: 400px;
+    padding: 0;
+    margin: 20px;
+    background-image: url(../images/margo-brodowicz-KZHhnb6XsQI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px #848484;
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent_input {
+    background-color: rgba(242, 242, 242, 0.7);
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px #848484;
+}

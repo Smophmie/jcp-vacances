@@ -1,0 +1,115 @@
+/* Text colors : 
+- Blue color : #1464B8
+- Grey color : #505050 
+- Orange color : #FC5B1C */
+
+/* Bg color : #F2F2F2 */
+
+* {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+header {
+    height : 12vh;
+    background-color: #1464B8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light_logo {
+    width: 20vw;
+    height: auto;
+}
+
+.logout {
+    font-size: 16px;
+    padding-right: 15px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    min-height: 88vh;
+    background-color: #1464B8;  
+}
+
+.nav_link{
+    border-bottom: 1px solid white;
+    height: 45px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_link:hover{
+    background-color: #F2F2F2;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.nav_link:hover i, .nav_link:hover a{
+    color: #1464B8;
+    padding-left: 15px;
+}
+
+nav i {
+    color: white;
+    padding: 10px;
+}
+
+section {
+    padding-left: 30px;
+}
+
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-size: 35px;
+    color :#FC5B1C;
+    padding: 5px;
+}
+
+input  {
+    border: none;
+    min-height: 30px;
+    padding: 1px 5px;
+}
+
+.submit_button {
+    background-color: #1464B8;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 150px;
+    color: white;
+}
+
+.submit_button:hover {
+    background-color: #FC5B1C;
+}

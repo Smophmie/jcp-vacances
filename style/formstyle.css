@@ -1,0 +1,29 @@
+form {
+    padding: 20px;
+}
+
+input[type="text"] {
+    box-shadow: 4px 4px 10px #848484;
+}
+
+.form_line {
+    width: 1000px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.little_input {
+    width: 480px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.big_input {
+    width: 1000px;
+    height: 60px; 
+}
